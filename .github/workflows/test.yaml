@@ -5,11 +5,8 @@ on:
   workflow_dispatch:
   
 env:
-  BRANCH_PREFIX: auto_merge_
-  UPSTREAM_URL: https://github.com/blender/blender.git
   USER_EMAIL: 39191601+hzuika@users.noreply.github.com
   USER_NAME: hzuika
-  MERGE_COMMAND: git merge upstream/master
 
 jobs:
   build:
@@ -29,7 +26,7 @@ jobs:
           git config --global user.email "$USER_EMAIL"
           git config --global user.name "$USER_NAME"
 
-      - run: git checkout test
+      - run: git checkout -b test
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
