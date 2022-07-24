@@ -1,0 +1,42 @@
+name: Test
+
+on:
+  # Actions タブから手動でこのワークフローを実行することを許可する．
+  workflow_dispatch:
+  
+env:
+  BRANCH_PREFIX: auto_merge_
+  UPSTREAM_URL: https://github.com/blender/blender.git
+  USER_EMAIL: 39191601+hzuika@users.noreply.github.com
+  USER_NAME: hzuika
+  MERGE_COMMAND: git merge upstream/master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        # node-version: [10.x, 12.x, 14.x, 15.x]
+        node-version: [18.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      # (マージ)コミットするときに必要なgit configを設定する．      
+      - name: Set git config for merge commit
+        run: |
+          git config --global user.email "$USER_EMAIL"
+          git config --global user.name "$USER_NAME"
+
+      - run: git checkout test
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run example
+      - run: git add .
+      - run: git commit -m "Add Text File"
+      - run: git push origin test
