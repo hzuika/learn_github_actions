@@ -3,9 +3,9 @@ name: Test
 on:
   schedule:
     # *はYAMLにおける特殊文字なので、この文字列はクオートしなければならない
-    - cron:  '40 * * * *'
+    - cron:  '44 * * * *'
   # Actions タブから手動でこのワークフローを実行することを許可する．
-  workflow_dispatch:
+#   workflow_dispatch:
   
 env:
   USER_EMAIL: 39191601+hzuika@users.noreply.github.com
