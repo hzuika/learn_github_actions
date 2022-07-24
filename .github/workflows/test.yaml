@@ -6,10 +6,6 @@ on:
     - cron:  '0 0 * * *'
   # Actions タブから手動でこのワークフローを実行することを許可する．
   workflow_dispatch:
-  
-env:
-  USER_EMAIL: 39191601+hzuika@users.noreply.github.com
-  USER_NAME: hzuika
 
 jobs:
   build:
@@ -23,11 +19,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      # (マージ)コミットするときに必要なgit configを設定する．      
-      - name: Set git config for merge commit
-        run: |
-          git config --global user.email "$USER_EMAIL"
-          git config --global user.name "$USER_NAME"
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
@@ -39,6 +30,20 @@ jobs:
           touch .env
           echo "YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }}" >> .env
       - run: npm run example
-      - run: git add .
-      - run: git commit -m "Add Text File"
-      - run: git push origin main
+      
+      - name: Diff
+        id: diff
+        run: |
+          git add -N .
+          git diff --name-only --exit-code
+        continue-on-error: true
+      - name: Commit & Push
+        run: |
+          set -x
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add .
+          git commit -m 'Bot'
+          git push
+          exit 1
+        if: steps.diff.outcome == 'failure'
