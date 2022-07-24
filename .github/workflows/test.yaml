@@ -43,7 +43,7 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
-          git commit -m 'Bot'
+          git commit -m 'Download API Data'
           git push
-          exit 1
+          exit 0
         if: steps.diff.outcome == 'failure'
