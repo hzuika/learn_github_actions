@@ -1,7 +1,7 @@
 [
   {
     "kind": "youtube#channel",
-    "etag": "eyA3V6-yQOgDjYnapeJbwLKGhac",
+    "etag": "OAG6OScKSym6frSoKH1318H5Uio",
     "id": "UCSMOQeBJ2RAnuFungnQOxLg",
     "snippet": {
       "title": "Blender",
@@ -37,7 +37,7 @@
       }
     },
     "statistics": {
-      "viewCount": "96745108",
+      "viewCount": "96770013",
       "subscriberCount": "979000",
       "hiddenSubscriberCount": false,
       "videoCount": "965"
@@ -65,7 +65,7 @@
         "unsubscribedTrailer": "QRqY_20ti9A"
       },
       "image": {
-        "bannerExternalUrl": "https://yt3.ggpht.com/iM0_Sf1wu8w2Ef9K3zGDWUPqObBORx7rZHtSk20a7Ev-1xskTgMlksJAtgVaEAmHfK6l6Xliqw"
+        "bannerExternalUrl": "https://yt3.ggpht.com/TvcL5YgeRofxYQd2zr3VFTa3h_8W-5UlJBE7Jiykj--IE3VmV50TzoUeXECDu5Nxgy5kUWASyA"
       }
     },
     "contentOwnerDetails": {}
