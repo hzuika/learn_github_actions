@@ -1,12 +1,12 @@
 [
   {
     "kind": "youtube#channel",
-    "etag": "QIVxCM9C8X-CgmDeRNHTj83rP6E",
+    "etag": "IIYN5ibb44mzLKrCDNkU6d1rNPM",
     "id": "UCSMOQeBJ2RAnuFungnQOxLg",
     "snippet": {
       "title": "Blender",
       "description": "Official YouTube channel for Blender, the Free and Open Source 3D Creation Suite.\n\nThe Freedom to Create\n",
-      "customUrl": "blenderfoundation",
+      "customUrl": "@blenderfoundation",
       "publishedAt": "2008-05-29T10:18:59Z",
       "thumbnails": {
         "default": {
@@ -37,10 +37,10 @@
       }
     },
     "statistics": {
-      "viewCount": "97078202",
+      "viewCount": "97099733",
       "subscriberCount": "982000",
       "hiddenSubscriberCount": false,
-      "videoCount": "966"
+      "videoCount": "967"
     },
     "topicDetails": {
       "topicIds": [
