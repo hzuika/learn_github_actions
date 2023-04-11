@@ -1,7 +1,7 @@
 [
   {
     "kind": "youtube#channel",
-    "etag": "SzQWrse22bcvQWVY__euElKydWQ",
+    "etag": "XQNmA3VKANRiXB1eZYeYG97tZSc",
     "id": "UCSMOQeBJ2RAnuFungnQOxLg",
     "snippet": {
       "title": "Blender",
@@ -37,23 +37,23 @@
       }
     },
     "statistics": {
-      "viewCount": "105709733",
+      "viewCount": "105733554",
       "subscriberCount": "1040000",
       "hiddenSubscriberCount": false,
       "videoCount": "1093"
     },
     "topicDetails": {
       "topicIds": [
-        "/m/01k8wb",
         "/m/019_rr",
         "/m/07c1v",
-        "/m/0bzvm2"
+        "/m/0bzvm2",
+        "/m/01k8wb"
       ],
       "topicCategories": [
-        "https://en.wikipedia.org/wiki/Knowledge",
         "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
         "https://en.wikipedia.org/wiki/Technology",
-        "https://en.wikipedia.org/wiki/Video_game_culture"
+        "https://en.wikipedia.org/wiki/Video_game_culture",
+        "https://en.wikipedia.org/wiki/Knowledge"
       ]
     },
     "status": {
