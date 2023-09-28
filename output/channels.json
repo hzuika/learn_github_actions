@@ -1,7 +1,7 @@
 [
   {
     "kind": "youtube#channel",
-    "etag": "dZsZhnGKu_5mdFsQpKWUYE9p4-4",
+    "etag": "UyjpRtQtWR-nfmoOZ92gRwnjCbY",
     "id": "UCSMOQeBJ2RAnuFungnQOxLg",
     "snippet": {
       "title": "Blender",
@@ -37,7 +37,7 @@
       }
     },
     "statistics": {
-      "viewCount": "110313832",
+      "viewCount": "110331751",
       "subscriberCount": "1070000",
       "hiddenSubscriberCount": false,
       "videoCount": "1113"
