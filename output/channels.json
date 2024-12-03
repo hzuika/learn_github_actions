@@ -1,7 +1,7 @@
 [
   {
     "kind": "youtube#channel",
-    "etag": "sB2BqqM__77YdqwbScB061SUACQ",
+    "etag": "mX5A0KBwidUcRokDcvQZGiX23D4",
     "id": "UCSMOQeBJ2RAnuFungnQOxLg",
     "snippet": {
       "title": "Blender",
@@ -37,21 +37,21 @@
       }
     },
     "statistics": {
-      "viewCount": "121856055",
+      "viewCount": "121874876",
       "subscriberCount": "1170000",
       "hiddenSubscriberCount": false,
-      "videoCount": "1348"
+      "videoCount": "1349"
     },
     "topicDetails": {
       "topicIds": [
-        "/m/019_rr",
+        "/m/07c1v",
         "/m/01k8wb",
-        "/m/07c1v"
+        "/m/019_rr"
       ],
       "topicCategories": [
-        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+        "https://en.wikipedia.org/wiki/Technology",
         "https://en.wikipedia.org/wiki/Knowledge",
-        "https://en.wikipedia.org/wiki/Technology"
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
       ]
     },
     "status": {
