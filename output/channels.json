@@ -1,7 +1,7 @@
 [
   {
     "kind": "youtube#channel",
-    "etag": "4dQOOVqifsy27pWfZwUjY-oDU9g",
+    "etag": "Q0z32xPmZR4UMFGNIhC72yyPxro",
     "id": "UCSMOQeBJ2RAnuFungnQOxLg",
     "snippet": {
       "title": "Blender",
@@ -37,21 +37,21 @@
       }
     },
     "statistics": {
-      "viewCount": "123438431",
+      "viewCount": "123452567",
       "subscriberCount": "1180000",
       "hiddenSubscriberCount": false,
-      "videoCount": "1354"
+      "videoCount": "1356"
     },
     "topicDetails": {
       "topicIds": [
-        "/m/019_rr",
+        "/m/07c1v",
         "/m/01k8wb",
-        "/m/07c1v"
+        "/m/019_rr"
       ],
       "topicCategories": [
-        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+        "https://en.wikipedia.org/wiki/Technology",
         "https://en.wikipedia.org/wiki/Knowledge",
-        "https://en.wikipedia.org/wiki/Technology"
+        "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
       ]
     },
     "status": {
@@ -66,7 +66,7 @@
         "description": "Official YouTube channel for Blender, the Free and Open Source 3D Creation Suite.\n\nThe Freedom to Create\n",
         "keywords": "blender \"Blender Foundation\" 3d \"free software\" \"Creative Commons\" tutorials \"blender conference\" sintel \"cosmos laundromat\" caminandes \"tears of steel\" \"elephants dream\" \"big buck bunny\"",
         "trackingAnalyticsAccountId": "UA-1418081-1",
-        "unsubscribedTrailer": "jTVG5kdHRQQ"
+        "unsubscribedTrailer": "TQElJP1AaS0"
       },
       "image": {
         "bannerExternalUrl": "https://yt3.googleusercontent.com/6pYvl5Jl7MszRRlhjlRuEfil7B1sgt3u4WbCCl7yHPv1LbsSVAcaoGfs3gyrJUM201DQnzrUOA"
