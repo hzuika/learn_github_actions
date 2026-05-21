@@ -1,7 +1,7 @@
 [
   {
     "kind": "youtube#channel",
-    "etag": "MPOzQSlRSFPvEpckb-CjD2kVi0g",
+    "etag": "TeQ1ALQE2V_FQviFysUBSLHkuug",
     "id": "UCSMOQeBJ2RAnuFungnQOxLg",
     "snippet": {
       "title": "Blender",
@@ -44,18 +44,18 @@
     },
     "topicDetails": {
       "topicIds": [
-        "/m/02jjt",
+        "/m/02vxn",
         "/m/019_rr",
         "/m/01k8wb",
         "/m/07c1v",
-        "/m/02vxn"
+        "/m/02jjt"
       ],
       "topicCategories": [
-        "https://en.wikipedia.org/wiki/Entertainment",
+        "https://en.wikipedia.org/wiki/Film",
         "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
         "https://en.wikipedia.org/wiki/Knowledge",
         "https://en.wikipedia.org/wiki/Technology",
-        "https://en.wikipedia.org/wiki/Film"
+        "https://en.wikipedia.org/wiki/Entertainment"
       ]
     },
     "status": {
