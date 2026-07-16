@@ -1,7 +1,7 @@
 [
   {
     "kind": "youtube#channel",
-    "etag": "PrKmADe1SwEqPfV20qTaow-HcQY",
+    "etag": "ChNKGIO6fAH2m3kMjAlh_gz8mBM",
     "id": "UCSMOQeBJ2RAnuFungnQOxLg",
     "snippet": {
       "title": "Blender",
@@ -37,24 +37,24 @@
       }
     },
     "statistics": {
-      "viewCount": "130359461",
+      "viewCount": "130434114",
       "subscriberCount": "1230000",
       "hiddenSubscriberCount": false,
-      "videoCount": "1485"
+      "videoCount": "1486"
     },
     "topicDetails": {
       "topicIds": [
         "/m/02vxn",
-        "/m/07c1v",
-        "/m/01k8wb",
         "/m/019_rr",
+        "/m/01k8wb",
+        "/m/07c1v",
         "/m/02jjt"
       ],
       "topicCategories": [
         "https://en.wikipedia.org/wiki/Film",
-        "https://en.wikipedia.org/wiki/Technology",
-        "https://en.wikipedia.org/wiki/Knowledge",
         "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+        "https://en.wikipedia.org/wiki/Knowledge",
+        "https://en.wikipedia.org/wiki/Technology",
         "https://en.wikipedia.org/wiki/Entertainment"
       ]
     },
@@ -70,7 +70,7 @@
         "description": "Official YouTube channel for Blender, the Free and Open Source 3D Creation Suite.\n\nThe Freedom to Create\n",
         "keywords": "blender \"Blender Foundation\" 3d \"free software\" \"Creative Commons\" tutorials \"blender conference\" sintel \"cosmos laundromat\" caminandes \"tears of steel\" \"elephants dream\" \"big buck bunny\"",
         "trackingAnalyticsAccountId": "UA-1418081-1",
-        "unsubscribedTrailer": "TQElJP1AaS0"
+        "unsubscribedTrailer": "gqfLYIJMv7I"
       },
       "image": {
         "bannerExternalUrl": "https://yt3.googleusercontent.com/6pYvl5Jl7MszRRlhjlRuEfil7B1sgt3u4WbCCl7yHPv1LbsSVAcaoGfs3gyrJUM201DQnzrUOA"
